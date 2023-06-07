@@ -1,0 +1,89 @@
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form input{
+    border: none;
+    outline: 0;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: rgb(222, 237, 243);
+    color: black;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 12px;
+}
+.form button{
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.weather{
+    width: 380px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    background: linear-gradient(130deg, rgb(86, 86, 235), rgb(5, 5, 199));
+}
+
+.weather .main img{
+    width: 100%;
+    margin-top: 20px;
+    line-height: 50rem;
+}
+.weather .main h1{
+    margin-top: -50px;
+    font-size: 70px;
+}
+.weather .main h2{
+    margin-top: -30px;
+    font-size: 30px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.humidity{
+    display: flex;
+    color: white;
+}
+.humidity img{
+width: 100px;
+height: 100px;
+}
+.ps p{
+    margin-top: -50px;
+}
+.ps{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.wind{
+    display: flex;
+    color: white;
+}
+.wind img{
+width: 100px;
+height: 100px;
+}
+.ps p{
+    margin-top: -50px;
+}
+.ps{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.error{
+    color: rgb(235, 169, 169);
+    text-align: left;
+    margin-right: 10px;
+    font-weight: 900;
+}
